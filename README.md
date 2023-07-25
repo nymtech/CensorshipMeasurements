@@ -22,7 +22,7 @@ From the command line, enter the `Censorship_Measurements` folder by running the
   cd Censorship_Measurements
 ```
 
-and run in the command line (note, your `Docket` desktop app should be open at this point)
+and run in the command line (note, your `Docker` desktop app should be open at this point)
 
 ```bash
 docker-compose up
