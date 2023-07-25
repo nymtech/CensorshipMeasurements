@@ -1,0 +1,7 @@
+services:
+  ooni-probe:
+    build: .
+    environment:
+      - OONI_NYMVALIDATORURL=${OONI_NYMVALIDATORURL:-}
+    volumes:
+      - ./results:/results
