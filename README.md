@@ -2,8 +2,10 @@
 
 ## OONI-Probe tests for the Nym network
 
-This repository introduces a new type of Go test for Nym network censorship. Our tests are performed using the [OONI probe](https://ooni.org/). First, the test evaluates the connectivity to the to the validator API, which is a necessary step to allow users access to the Nym network, as it allows the Nym client to retrieve vital information such as the list of active relay nodes,
-gateways, their topology, and the necessary credentials for network access.After successfully fetching the list of available gateways in the initial test,
+This repository introduces a new type of Go test for Nym network censorship. Our tests are performed using the [OONI probe](https://ooni.org/).
+* First, the test evaluates the connectivity to the to the validator API, which is a necessary step to allow users access to the Nym network, as it allows the Nym client to retrieve vital information such as the list of active relay nodes,
+gateways, their topology, and the necessary credentials for network access.
+* After successfully fetching the list of available gateways in the initial test,
 a second test is conducted to determine the reachability of these gateways.
 Since the Nym network topology mandates that packets are routed through
 a gateway before entering the mixnet, being able to connect to at least one
