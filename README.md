@@ -16,10 +16,14 @@ establish connections with each gateway individually.
 To be able able to run the tests, you should have `docker`  and `docker-compose` installed. You can follow [this procedure](https://docs.docker.com/desktop) to install docker desktop which contains `docker` and `docker-compose` and a GUI to manage docker. Once installed and running, you can run the docker tests.
 
 ## How to run the tests ?
-
-From the command line, enter the `Censorship_Measurements` folder by running the command
+Fron the command line, clone this repository by running the following command
+```bash
+git clone https://github.com/nymtech/CensorshipMeasurements
 ```
-  cd Censorship_Measurements
+
+Then, enter the `CensorshipMeasurements` folder by running the command
+```bash
+cd CensorshipMeasurements
 ```
 
 and run in the command line (note, your `Docker` desktop app should be open at this point)
