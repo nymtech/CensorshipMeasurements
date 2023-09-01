@@ -17,9 +17,9 @@ To be able able to run the tests, you should have `docker`  and `docker-compose`
 
 ## How to run the tests ?
 
-From the command line, enter the `Censorship_Measurements` folder by running the command
+From the command line, enter the `CensorshipMeasurements` folder by running the command
 ```
-  cd Censorship_Measurements
+  cd CensorshipMeasurements
 ```
 
 and run in the command line (note, your `Docker` desktop app should be open at this point)
